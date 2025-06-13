@@ -1,25 +1,15 @@
-## BMI Calculator
+BMI Calculator
+A simple yet effective BMI (Body Mass Index) calculator built with React Hooks. This app allows users to calculate their BMI and automatically saves the results for up to 7 days using LocalStorage, ensuring data persistence across sessions.
 
-[![Build Status](https://travis-ci.com/GermaVinsmoke/bmi-calculator.svg?branch=master)](https://travis-ci.com/GermaVinsmoke/bmi-calculator)
-[![Coverage Status](https://coveralls.io/repos/github/GermaVinsmoke/bmi-calculator/badge.svg?branch=master)](https://coveralls.io/github/GermaVinsmoke/bmi-calculator?branch=master)
-[![codecov](https://codecov.io/gh/GermaVinsmoke/bmi-calculator/branch/master/graph/badge.svg)](https://codecov.io/gh/GermaVinsmoke/bmi-calculator)
+![1](https://github.com/user-attachments/assets/e7b928f7-f411-4a53-9062-7f1a090604ec)
 
-React Hooks app to calculate the BMI of a person. It can store the data for 7 days with the help of LocalStorage.
-
-![](images/1.jpg)
-
-Created with _create-react-app_. See the [full create-react-app guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
-
-## Install
-
-`npm install`
-
-## Usage
-
+🚀 Installation
+bash
+`npm install´
+▶️ Usage
+bash
 `npm start`
+🔧 Planned Enhancements
+Replace the dependency on the Materialize-CSS framework with a custom or modern alternative (e.g., Tailwind CSS).
 
-## Enhancement
-
-1. Removing the dependency of Materialize-CSS module
-
-~~2. Chart going crazy on hovering over the old points~~
+Fix chart instability when hovering over old data points. (Resolved)
